@@ -1,0 +1,12 @@
+{
+  "name": "@frctl/async-talk",
+  "version": "1.0.0",
+  "description": "Examples and code for AsyncJS talk on Fractal.",
+  "author": "Mark Perkins <mark@allmarkedup.com> (http://allmarkedup.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@frctl/fractal": "^0.10.2",
+    "@frctl/react-adapter": "^0.1.1",
+    "request-promise": "^2.0.1"
+  }
+}

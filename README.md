@@ -1,2 +1,3 @@
-# async-talk
-Demo code for AsyncJS talk on Fractal.
+# Async talk - demo code
+
+Examples and code for AsyncJS talk on Fractal.

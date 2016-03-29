@@ -1,0 +1,11 @@
+<form class="Form" method="post">
+
+    {{> @notification text="Please fill in this form"}}
+
+    {{#each fields}}
+    {{> @input this}}
+    {{/each}}
+
+    {{> @button text="Submit this form" icon="✔" modifier="action"}}
+
+</form>

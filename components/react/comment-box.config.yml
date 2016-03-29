@@ -1,0 +1,10 @@
+context:
+  comments:
+    - author: Bob Builder
+      text: Comment 1
+    - author: Mickey Mouse
+      text: Comment 2
+    - author: Bob Builder
+      text: Comment 1
+    - author: Mickey Mouse
+      text: Comment 2

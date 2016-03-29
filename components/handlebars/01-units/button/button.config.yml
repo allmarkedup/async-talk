@@ -1,0 +1,14 @@
+label: Buttons
+context:
+    text: Click me!
+
+variants:
+    - name: cancel
+      context:
+          text: Cancel this action
+          modifier: abort
+    - name: next
+      context:
+          text: Do the next thing
+          modifier: action
+          icon: '&rarr;'
