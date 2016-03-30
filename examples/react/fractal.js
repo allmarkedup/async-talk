@@ -11,3 +11,5 @@ fractal.set('components.path', `${root}/components/react`);
 fractal.set('components.ext', '.jsx');
 fractal.set('components.engine', 'react');
 fractal.set('components.default.preview', `${root}/components/react/preview.html`);
+
+fractal.set('themes.mandelbrot.skin', 'green');

@@ -1,6 +1,6 @@
-<form class="Form" method="post">
+<form class="Form" method="post" action="{{ action }}">
 
-    {{> @notification text="Please fill in this form"}}
+    {{> @notification alert}}
 
     {{#each fields}}
     {{> @input this}}

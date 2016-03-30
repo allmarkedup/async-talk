@@ -1,6 +1,8 @@
-
-{{#each users}}
-    <li>
-        {{ this.name }} ({{ this.email }})
+<ul class="UserList">
+    {{#each users}}
+    <li class="UserList-user">
+        <h4 class="UserList-name">{{ this.name }}</h4>
+        <p class="UserList-bio">{{ this.bio }}</p>
     </li>
-{{/each}}
+    {{/each}}
+</ul>

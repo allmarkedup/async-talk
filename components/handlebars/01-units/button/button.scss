@@ -1,0 +1,30 @@
+.Button {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.Button:hover {
+    background-color: #e2e2e2;
+}
+.Button--abort {
+    border-color: red;
+    color: red;
+    background: #FFECEC;
+}
+.Button--abort:hover {
+    background: #FFDEDE;
+}
+.Button--action {
+    border-color: #54E6FF;
+    background: #EAFCFF;
+}
+.Button--action:hover {
+    background: #D7F9FF;
+}
+.Button-icon {
+    margin-left: 5px;
+}

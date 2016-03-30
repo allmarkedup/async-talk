@@ -1,0 +1,19 @@
+.Notification {
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.Notification p {
+    margin-bottom: 0;
+}
+.Notification--error {
+    border-color: red;
+    background: #FFECEC;
+    color: red;
+}
+.Notification--success {
+    border-color: green;
+    background: #EDFFEE;
+    color: green;
+}

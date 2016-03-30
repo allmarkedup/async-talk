@@ -1,19 +1,17 @@
 'use strict';
 
-const Promise = require('bluebird');
-const rp = Promise.promisify(require('request'));
+const faker = require('faker');
+const users = [];
 
-const result = rp({
-    uri: 'http://jsonplaceholder.typicode.com/users',
-    json: true
-}).then(function(res){
-    console.log(res.body.length);
-    return res.body;
-});
-console.log(result);
+for (let i = 0; i < 100; i++) {
+    users.push({
+        name: faker.name.findName(),
+        bio: faker.lorem.sentence()
+    });
+}
 
 module.exports = {
     context: {
-        users: result
+        users: users
     }
 }

@@ -1,0 +1,7 @@
+context:
+  alert:
+      text: Please fill in this form!
+  fields:
+    - labelText: 'Enter your password'
+      name: password
+      type: password

@@ -1,6 +1,4 @@
-<button class="Button {{#if modifier}}Button--modifier{{/if}}" type="button">
+<button class="Button {{#if modifier}}Button--{{ modifier }}{{/if}}" type="button">
     <span class="Button-text">{{ text }}</span>
     {{#if icon}}<span class="Button-icon">{{{ icon }}}</span>{{/if}}
 </button>
-
- 

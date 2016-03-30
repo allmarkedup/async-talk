@@ -5,8 +5,16 @@
   "author": "Mark Perkins <mark@allmarkedup.com> (http://allmarkedup.com)",
   "license": "MIT",
   "dependencies": {
+    "@frctl/api-plugin": "git+https://github.com/frctl/api-plugin.git",
+    "@frctl/debug-theme": "git+https://github.com/frctl/debug-theme.git",
     "@frctl/fractal": "^0.10.2",
     "@frctl/react-adapter": "^0.1.1",
+    "del": "^2.2.0",
+    "express": "^4.13.4",
+    "faker": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sass-glob": "^1.0.5",
     "request-promise": "^2.0.1"
   }
 }

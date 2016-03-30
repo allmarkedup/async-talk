@@ -5,7 +5,7 @@ const variants = [];
 for (let type of ['Text', 'Password', 'Number']) {
     variants.push({
         label: `${type}`,
-        name:  type == 'Text' ? 'default' : `${type.toLowerCase()}-example`,
+        name:  type == 'Text' ? 'default' : `${type.toLowerCase()}`,
         context: {
             labelText: `${type} field`,
             type: type.toLowerCase(),
