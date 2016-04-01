@@ -4,7 +4,14 @@ Examples and code for AsyncJS talk on Fractal.
 
 Please note this is not intended to represent a 'best practice' way to organise your Fractal projects! This contains a number of `fractal.js` files to demo different configurations. Your projects will not likely look like this :-)
 
-## basic
+## Install
+
+1. Download this repo
+2. Install dependencies: `npm install`
+
+## Run examples
+
+### basic
 
 Run: 
 ```
@@ -17,7 +24,7 @@ Simple handlebars component library.
 * Default theme: `start`
 * Debug theme: `start --theme @frctl/debug-theme`
 
-## react
+### react
 
 Run: 
 ```
@@ -29,7 +36,7 @@ Server side rendering of React components
 
 * Default theme with colour skin: `start`
 
-## commands
+### commands
 
 Run: 
 ```
@@ -43,7 +50,7 @@ Using API plugin, plus a bespoke command.
 * API plugin: `api`
 * Bespoke list command: `list components --limit 3`
 
-## app integration
+### app integration
 
 Run: 
 ```
