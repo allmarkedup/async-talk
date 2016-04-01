@@ -2,9 +2,15 @@
 
 Examples and code for AsyncJS talk on Fractal.
 
+Please note this is not intended to represent a 'best practice' way to organise your Fractal projects! This contains a number of `fractal.js` files to demo different configurations. Your projects will not likely look like this :-)
+
 ## basic
 
-`examples/basic`
+Run: 
+```
+cd examples/basic
+fractal
+```
 
 Simple handlebars component library.
 
@@ -13,7 +19,11 @@ Simple handlebars component library.
 
 ## react
 
-`examples/react`
+Run: 
+```
+cd examples/react
+fractal
+```
 
 Server side rendering of React components
 
@@ -21,7 +31,11 @@ Server side rendering of React components
 
 ## commands
 
-`examples/commands`
+Run: 
+```
+cd examples/commands
+fractal
+```
 
 Using API plugin, plus a bespoke command.
 
@@ -31,6 +45,9 @@ Using API plugin, plus a bespoke command.
 
 ## app integration
 
-`examples/app`
+Run: 
+```
+cd examples/app
+```
 
 * Run the app: `node index.js`
