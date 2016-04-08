@@ -6,7 +6,7 @@ Please note this is not intended to represent a 'best practice' way to organise 
 
 ## Install
 
-1. Install the [Fractal command line helper](https://github.com/frctl/fractal/blob/master/docs/installation.md#1-install-the-cli-helper-globally) globally (if you haven't already)
+1. Install the [Fractal command line helper](https://github.com/frctl/fractal/blob/master/docs/installation.md#1-install-the-cli-helper-globally) globally (if you haven't already): `npm i @frctl/fractal -g`
 2. Download this repo
 3. Install dependencies: `npm install`
 
